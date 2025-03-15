@@ -15,4 +15,11 @@
   *!DOCTYPE html* mendefinisikan bahwa dokumen ini adalah dokumen HTML5.
   
   *html* adalah elemen akar dari halaman HTML.
-  
+
+  *head* berisi informasi meta tentang halaman HTML.
+
+  *title* menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman).
+
+  *body* mendefinisikan badan dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
+
+  **<mark>Di awal dan di akhir ada tanda <......></mark>**
