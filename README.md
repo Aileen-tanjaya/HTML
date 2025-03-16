@@ -55,7 +55,7 @@
 
     Diawali dengan **h1**  dan diakhiri dengan **/h1** 
 
-    Tetapi awal dan akhir harus ada <..>
+    <mark>Di awal dan di akhir ada tanda <......></mark>
     
   - Paragaf HTML
  
@@ -63,9 +63,70 @@
 
     Diawali dengan **p** dan diakhiri dengan **/p** 
 
-    Tetapi awal dan akhir harus ada <..>
+    <mark>Di awal dan di akhir ada tanda <......></mark>
     
   - Tautan HTML
 
-    Menggunakan <a href="https://www.w3schools.com">This is a link</a
+    Menggunakan kode **"a href="https://www.w3schools.com">This is a link</a"**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Gambar HTML
+ 
+    Menggunakan kode **"img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+- HTML Elements
+
+  |Start tag|Isinya|End tag|
+  |----|----|----|
+  |h1|My First Heading|/h1|
+  |P|My First Paragraph|/p|
+  |br|none|none|
+
+  <mark>Di awal dan di akhir ada tanda <......></mark>
   
+- HTML Atributes
+
+  - Cara agar sekali tekan muncul link juga:
+
+    a href="https://www.w3schools.com">Visit W3Schools</a
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+    **https** nya itu link nya, kalo **Visit W3Schools** itu tampilan tulisannya
+
+  - Cara muncul gambar
+
+    Menggunakan kode ini **"img src="img_girl.jpg"**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Cara tulisan jadi berwarna
+ 
+     Menggunakan **"p style="color:red;">This is a red paragraph.</p"**
+    
+- HTML Headings
+
+  Menggunakan kode **"h1>Heading 1</h1"**
+
+  <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  Semakin besar angkanya, semakin kecil tulisannya.
+
+- HTML Paragraph
+
+  Menggunakan kode **hr** untuk memunculkan garis
+
+  <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  Menggunakan kode **br** untuk ke baris selanjutnya
+
+  <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  Menggunakan kode **p** di awal dan **/p** di akhir, lalu isi tulisannya per baris, Output nya akan menjadi satu kalimat. 
+
+  <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  Menggunakan kode **pre** di awal dan **/pre** di akhir, lalu isi tulisannya per baris, Output nya adalah isi tulisannya akan lebih masuk sedikit.
