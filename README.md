@@ -173,4 +173,20 @@
 
     <mark>Di awal dan di akhir ada tanda <......></mark>
 
-  - Menggunakan kode **p>My favorite color is <del>blue</del> red.</p**
+  - Menggunakan kode **p>My favorite color is <del>blue</del> red.</p** untuk menandai coretan ditulisan **blue**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p>My favorite color is <del>blue</del> <ins>red</ins>.</p** untuk menandai coretan ditulisan **blue** dan menandai garis bawahi tulisan **red**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunkan kode **p>This is <sub>subscripted</sub> text.</p** untuk menandai tulisan **subscripted** jadi lebih dibawah garis normal.
+ 
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p>This is <sup>superscripted</sup> text.</p** untuk menandai tulisan **subscripted** jadi lebih di atas garis normal.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+- HTML Quatations
