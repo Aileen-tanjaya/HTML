@@ -130,3 +130,47 @@
   <mark>Di awal dan di akhir ada tanda <......></mark>
 
   Menggunakan kode **pre** di awal dan **/pre** di akhir, lalu isi tulisannya per baris, Output nya adalah isi tulisannya akan lebih masuk sedikit.
+
+  <mark>Di awal dan di akhir ada tanda <......></mark>
+
+- HTML Styles
+
+  - Menggunakan kode **body style="background-color:powderblue;"** untuk background tulisan menjadi berwarna. Kode ini diketik setelah doctype dan html.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p style="color:red;">This is a paragraph.</p** untuk tulisannya menjadi berwarna.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunkan kode **p style="font-family:courier;">This is a paragraph.</p** untuk manampilkan jenis font yang berbeda.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p style="font-size:160%;">This is a paragraph.</p** untuk memperbesar ukuran tulisan.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p style="text-align:center;">Centered paragraph.</p** untuk menampilkan tulisan ke bagian tengah.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+- HTML Formatting
+
+  - Menggunakan kode **p><b>This text is bold.</b></p** untuk membuat tulisan menjadi tebal. b nya bisa diganti dengan **strong**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p><i>This text is italic.</i></p** untuk membuat tulisan menjadi miring.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+    
+  - Menggunakan kode **p><small>This is some smaller text.</small></p** untuk membuat tulisan menjadi lebih kecil lagi.
+ 
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p>Do not forget to buy <mark>milk</mark> today.</p** untuk menandai tulisan **milk**.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p>My favorite color is <del>blue</del> red.</p**
