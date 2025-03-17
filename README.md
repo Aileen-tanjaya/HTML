@@ -117,21 +117,24 @@
 
 - HTML Paragraph
 
-  Menggunakan kode **hr** untuk memunculkan garis
+  - Menggunakan kode **hr** untuk memunculkan garis
 
-  <mark>Di awal dan di akhir ada tanda <......></mark>
+    <mark>Di awal dan di akhir ada tanda <......></mark>
 
-  Menggunakan kode **br** untuk ke baris selanjutnya
+  - Menggunakan kode **br** untuk ke baris selanjutnya
 
-  <mark>Di awal dan di akhir ada tanda <......></mark>
+    OUTPUT NYA
+    <p>This is<br>a paragraph<br>with line breaks.</p>
 
-  Menggunakan kode **p** di awal dan **/p** di akhir, lalu isi tulisannya per baris, Output nya akan menjadi satu kalimat. 
+    <mark>Di awal dan di akhir ada tanda <......></mark>
 
-  <mark>Di awal dan di akhir ada tanda <......></mark>
+  - Menggunakan kode **p** di awal dan **/p** di akhir, lalu isi tulisannya per baris, Output nya akan menjadi satu kalimat.
 
-  Menggunakan kode **pre** di awal dan **/pre** di akhir, lalu isi tulisannya per baris, Output nya adalah isi tulisannya akan lebih masuk sedikit.
+    <mark>Di awal dan di akhir ada tanda <......></mark>
 
-  <mark>Di awal dan di akhir ada tanda <......></mark>
+  - Menggunakan kode **pre** di awal dan **/pre** di akhir, lalu isi tulisannya per baris, Output nya adalah isi tulisannya akan lebih masuk sedikit.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
 
 - HTML Styles
 
@@ -157,7 +160,7 @@
 
 - HTML Formatting
 
-  - Menggunakan kode **p><b>This text is bold.</b></p** untuk membuat tulisan menjadi tebal. b nya bisa diganti dengan **strong**
+  - Menggunakan kode **p><b>This text is bold.</b></p** untuk membuat tulisan menjadi tebal. 
 
     <mark>Di awal dan di akhir ada tanda <......></mark>
 
@@ -190,3 +193,58 @@
     <mark>Di awal dan di akhir ada tanda <......></mark>
 
 - HTML Quatations
+
+  - Menggunakan kode **blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we 
+    collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote** untuk membuat satu paragaf/kalimat itu semuanya jadi masuk ke dalam. 
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p** untuk memunculkan tanda " dari build sampai nature. dengan 
+    kode **q>.......</q**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode **p>The abbr title="World Health Organization">WHO</abbr was founded in 1948.</p**
+ 
+    Tulisan title nya untuk memunculkan tulisan WHO nya.
+
+    Kode abbr nya untuk garis titik tulisan WHO nya
+
+    <mark>Di awal dan di akhir ada tanda <......></mark> secara keseluruhan dan  <mark>Di awal **sebelum abbr** dan **di akhir sesudah abbr** ada **tanda <......>**</mark>
+
+  - Menggunakan kode
+    
+    <address>
+    Written by John Doe.<br> 
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+    </address>
+
+    kode **address** untuk informasi kontak untuk penulis/pemilik dokumen atau artikel.
+
+    Teks dalam **address** elemen biasanya ditampilkan dalam huruf miring, dan peramban akan selalu menambahkan jeda baris sebelum dan sesudah **address** elemen.
+
+    <mark>Di awal dan di akhir address ada tanda <......></mark>
+
+  - Menggunakan kode **p> cite>The Scream</cite by Edvard Munch. Painted in 1893.</p** untuk mendefinisikan judul suatu karya kreatif (misalnya buku, puisi, lagu, film, 
+    lukisan, patung, dll.).
+
+    Teks dalam **cite** elemen biasanya ditampilkan dalam huruf miring.
+
+    <mark>Di awal dan di akhir address ada tanda <......></mark> dan  <mark>Di awal **sebelum cite** dan **di akhir sesudah cite** ada **tanda <......>**</mark>
+
+  - Menggunakan kode **bdo dir="rtl">This line will be written from right to left</bdo** untuk mengganti arah teks.
+
+    OUTPUT nya **tfel ot thgir morf nettirw eb lliw enil siht**
+
+- HTML Comments
+
+  Menggunakan kode **!-- <p>This is another paragraph </p> --** untuk menyembunyikan teks untuk sementara.
+
+  <mark>Di awal dan di akhir address ada tanda <......></mark
+
+- HTML 
