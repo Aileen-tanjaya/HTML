@@ -800,8 +800,236 @@
 
     Elemen tingkat blok selalu menempati lebar penuh yang tersedia (membentang ke kiri dan kanan sejauh mungkin).
 
-    Dua elemen blok yang umum digunakan adalah: <p> dan <div>.
+    Dua elemen blok yang umum digunakan adalah: **p** dan **div**.
 
-    Elemen ini <p>mendefinisikan paragraf dalam dokumen HTML.
+    Elemen ini **p** mendefinisikan paragraf dalam dokumen HTML.
 
-    Elemen <div>mendefinisikan divisi atau bagian dalam dokumen HTML.
+    Elemen **div** mendefinisikan divisi atau bagian dalam dokumen HTML.
+
+    **Contoh**
+
+    <p>Hello World</p>
+    <div>Hello World</div>
+
+  - Elemen Segaris
+
+    **Contoh**
+
+    <span>Hello World</span>
+
+  - Elemen **div**
+ 
+    Elemen tersebut **div** tidak memiliki atribut yang diperlukan, tetapi style, classdan id bersifat umum.
+
+    **Contoh**
+
+    <div style="background-color:black;color:white;padding:20px;">
+    <h2>London</h2>
+    <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    </div>
+
+  - Elemen **span**
+ 
+    Elemen **span** adalah wadah sebaris yang digunakan untuk menandai bagian teks atau bagian dokumen.
+ 
+    **Contoh**
+ 
+    <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> 
+    eyes.</p>
+
+- HTML Div
+
+  - Elemen **Div**
+ 
+    merupakan elemen blok, artinya ia mengambil semua lebar yang tersedia, dan disertai jeda baris sebelum dan sesudahnya.
+
+    **Contoh**
+
+    Lorem Ipsum <div>I am a div</div> dolor sit amet.
+
+  - **Div** sebagai wadah
+
+    digunakan untuk mengelompokkan bagian-bagian halaman web bersama-sama.
+
+    **Contoh**
+
+    <div>
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>London has over 9 million inhabitants.</p>
+    </div>
+
+  - Ratakan tengah elemen **div**
+ 
+    **Contoh**
+
+    <style>
+    div {
+    width:300px;
+    margin:auto;
+    }
+    </style>
+
+  - Beberapa elemen **div**
+ 
+    **Contoh**
+
+    <div>
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>London has over 9 million inhabitants.</p>
+    </div>
+
+    <div>
+    <h2>Oslo</h2>
+    <p>Oslo is the capital city of Norway.</p>
+    <p>Oslo has over 700,000 inhabitants.</p>
+    </div>
+
+    <div>
+    <h2>Rome</h2>
+    <p>Rome is the capital city of Italy.</p>
+    <p>Rome has over 4 million inhabitants.</p>
+    </div>
+
+  - Mengambang
+ 
+    Properti CSS **float** digunakan untuk memposisikan dan memformat konten dan memungkinkan elemen diposisikan secara horizontal, bukan vertikal.
+ 
+    **Contoh**
+
+    <style>
+    .mycontainer {
+    width:100%;
+    overflow:auto;
+    }
+    .mycontainer div {
+    width:33%;
+    float:left;
+    }
+    </style>
+
+  - Blok sebaris
+ 
+    mengubah properti **div** elemen *display* dari *block* menjadi *inline-block*, **div** elemen tidak akan lagi menambahkan jeda baris sebelum dan sesudahnya, dan akan 
+    ditampilkan berdampingan, bukan di atas satu sama lain.
+
+  - Melenturkan
+
+    **Contoh**
+
+    <style>
+    .mycontainer {
+    display: flex;
+    }
+    .mycontainer > div {
+    width:33%;
+    }
+    </style>
+
+  - Jaringan
+ 
+    **Contoh**
+
+    <style>
+    .grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    }
+    </style>
+
+- HTML Classes
+
+  **Contoh**
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  .city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+  </div>
+
+  <div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+  </div>
+
+  <div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  </body>
+  </html>
+
+  - Beberapa Kelas
+
+    Untuk menentukan beberapa kelas, pisahkan nama kelas dengan spasi, misalnya <div class="city main">. Elemen akan diberi gaya sesuai dengan semua kelas yang ditentukan.
+
+    **Contoh**
+
+    <h2 class="city main">London</h2>
+    <h2 class="city">Paris</h2>
+    <h2 class="city">Tokyo</h2>
+
+  - Elemen yang Berbeda Dapat Berbagi Kelas yang Sama
+
+    **Contoh**
+
+    <h2 class="city">Paris</h2>
+    <p class="city">Paris is the capital of France</p>
+
+  - Penggunaan Atribut Kelas di JavaScript
+
+    **Contoh**
+
+    <script>
+    function myFunction() {
+    var x = document.getElementsByClassName("city");
+    for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    }
+    }
+    </script>
+
+- HTML ID
+
+  Atribut ini *id* digunakan untuk menunjuk ke deklarasi gaya tertentu dalam lembar gaya. Atribut ini juga digunakan oleh JavaScript untuk mengakses dan memanipulasi 
+  elemen
+
+  **Contoh**
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  #myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  }
+  </style>
+  </head>
+  <body>
+
+  <h1 id="myHeader">My Header</h1>
+
+  </body>
+  </html>
+
+- 
+  dengan ID tertentu.
