@@ -1031,5 +1031,125 @@
   </body>
   </html>
 
-- 
-  dengan ID tertentu.
+- HTML Inframes
+
+  - Sintaksis Iframe HTML menentukan bingkai sebaris.
+
+    **Contoh**
+
+    <iframe src="url" title="description"></iframe>
+
+  - Iframe ( Mengatur Tinggi dan Lebar )
+
+    **Contoh**
+
+    <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+  - Iframe ( Hapus Batasan )
+ 
+    **Contoh**
+
+    <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+
+  - Iframe ( Target untuk Tautan )
+ 
+    **Contoh**
+
+    <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+- HTML JavaScript
+
+  - Tag HTML **script**
+
+    **Contoh**
+
+    <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+
+  - Tag HTML **noscript**
+ 
+    Tag HTML **noscript** mendefinisikan konten alternatif yang akan ditampilkan kepada pengguna yang telah menonaktifkan skrip di browser mereka atau memiliki browser 
+    yang tidak mendukung skrip:
+
+    **Contoh**
+
+    <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+- HTML File Paths
+
+  - Jalur File Absolut
+
+    **Contoh**
+
+    <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+
+  - Jalur File Relatif
+
+    **Contoh**
+
+    <img src="/images/picture.jpg" alt="Mountain">
+
+- HTML Head
+
+  - Elemen HTML **head**
+ 
+    Elemen **head** adalah wadah untuk metadata (data tentang data) dan ditempatkan di antara **html** tag dan **body** tag.
+
+    Metadata HTML adalah data tentang dokumen HTML. Metadata tidak ditampilkan di halaman.
+
+    Metadata biasanya menentukan judul dokumen, rangkaian karakter, gaya, skrip, dan informasi meta lainnya.
+
+  - Elemen HTML **title**
+ 
+    Elemen ini **title** menentukan judul dokumen. Judul harus berupa teks saja, dan ditampilkan di bilah judul browser atau di tab halaman.
+
+    **Contoh**
+
+    <title>A Meaningful Page Title</title>
+
+  - Elemen HTML **style**
+ 
+    **Contoh**
+
+    <style>
+    body {background-color: powderblue;}
+    h1 {color: red;}
+    p {color: blue;}
+    </style>
+
+  - Elemen HTML **link**
+ 
+    **Contoh**
+
+    <link rel="stylesheet" href="mystyle.css">
+
+  - Elemen HTML **script**
+ 
+    **Contoh**
+
+    <script>
+    function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+    </script>
+
+  - Elemen HTML **base**
+ 
+    **Contoh**
+ 
+    <head>
+    <base href="https://www.w3schools.com/" target="_blank">
+    </head>
+
+    <body>
+    <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+    <a href="tags/tag_base.asp">HTML base Tag</a>
+    </body>
+
+  - 
