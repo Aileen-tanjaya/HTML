@@ -498,4 +498,310 @@
     </body>
     </html>
 
+- HTML Links
+
+  - Tautan HTML ( Sintaksis )
+
+    **Contoh kode**
+
+    a href="https://www.w3schools.com/">Visit W3Schools.com!</a
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Tautan HTML - Atribut Target
+
+    Atribut target dapat memiliki salah satu nilai berikut:
+
+    _self- Default. Membuka dokumen di jendela/tab yang sama saat diklik
     
+    _blank- Membuka dokumen di jendela atau tab baru
+
+    _parent- Membuka dokumen di bingkai induk
+
+    _top- Membuka dokumen di badan penuh jendela
+
+    **Contoh**
+
+    a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - URL Absolut vs. URL Relatif
+ 
+    **Contoh**
+
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+  - Tautan HTML ( Gunakan Gambar sebagai Tautan )
+
+    **Contoh**
+
+    <a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+
+  - Tautan ke Alamat Email
+ 
+    **Contoh**
+ 
+    <a href="mailto:someone@example.com">Send email</a>
+ 
+  - Tombol sebagai Tautan
+ 
+    **Contoh**
+ 
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+  - Judul Tautan
+ 
+    **Contoh**
+
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+- HTML Images
+
+  - Sintaksis Gambar HTML
+
+    Tag HTML **img** igunakan untuk menanamkan gambar di halaman web.
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+    Tag <img> memiliki dua atribut yang diperlukan:
+
+    - src = Menentukan jalur ke gambar
+    
+    - alt = Menentukan teks alternatif untuk gambar
+
+    **Contoh**
+
+    <img src="url" alt="alternatetext">
+
+  - Atribut src
+ 
+    Atribut yang diperlukan srcmenentukan jalur (URL) ke gambar.
+ 
+    **contoh**
+
+    <img src="img_chania.jpg" alt="Flowers in Chania">
+
+  - Atribut alt
+
+    Nilai alt atribut harus menjelaskan gambar:
+
+    **contoh**
+
+    <img src="img_chania.jpg" alt="Flowers in Chania">
+
+  - Ukuran Gambar ( Lebar dan Tinggi )
+
+    **Contoh**
+
+    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+  - Gambar di Folder Lain
+
+    **Contoh**
+
+    <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+  - Gambar di Server/Situs Web Lain
+ 
+    **Contoh**
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+  - Gambar Animasi
+ 
+    **Contoh**
+
+    <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+  - Gambar sebagai Tautan
+
+    **Contoh**
+
+    <a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+
+  - Gambar Mengambang
+
+    **Contoh**
+
+    <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    The image will float to the right of the text.</p>
+
+    <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+    The image will float to the left of the text.</p>
+
+- HTML Favicon
+
+  Cara Menambahkan Favicon di HTML:
+
+  Untuk menambahkan favicon ke situs web Anda, simpan gambar favicon Anda ke direktori akar server web Anda, atau buat folder di direktori akar yang disebut gambar, dan 
+  simpan gambar favicon Anda di folder ini. Nama umum untuk gambar favicon adalah "favicon.ico".
+
+  **Contoh**
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body>
+
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph.</p>
+
+  </body>
+  </html>
+  Sekarang, 
+
+- HTML Page Title
+
+  - Elemen Judul
+ 
+    **Contoh**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>HTML Tutorial</title>
+    </head>
+    <body>
+
+    The content of the document......
+
+    </body>
+    </html>
+
+- HTML Tables
+
+  - Tabel dalam HTML terdiri dari sel-sel tabel di dalam baris dan kolom
+
+    **Contoh**
+
+    <table>
+    <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+    </tr>
+    <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    </tr>
+    <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    </tr>
+    </table>
+    
+  - Sel tabel ( cuman ada 1 baris )
+ 
+    **Contoh**
+
+    <table>
+    <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+    </tr>
+    </table>
+
+  - Baris tabel
+ 
+    **Contoh**
+
+    <table>
+    <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+    </tr>
+    <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+    </tr>
+    </table>
+
+  - Judul Tabel
+ 
+    **Contoh**
+
+    <table>
+    <tr>
+    <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+    </tr>
+    <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+    </tr>
+    <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+    </tr>
+    </table>
+
+- HTML List
+
+  - Daftar HTML Tidak Berurut
+
+    **Contoh**
+
+    <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ul>  
+
+  - Daftar HTML yang Diurutkan
+
+    **Contoh**
+
+    <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+  - Daftar Deskripsi HTML
+ 
+    Tag **dl** mendefinisikan daftar deskripsi, **dt** tag mendefinisikan istilah (nama), dan **dd** tag mendeskripsikan setiap istilah:
+
+    **Contoh**
+
+    <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+    </dl>
+
+- HTML Block & Inline
+
+  - Elemen tingkat blok
+
+    Elemen tingkat blok selalu dimulai pada baris baru, dan peramban secara otomatis menambahkan spasi (margin) sebelum dan sesudah elemen.
+
+    Elemen tingkat blok selalu menempati lebar penuh yang tersedia (membentang ke kiri dan kanan sejauh mungkin).
+
+    Dua elemen blok yang umum digunakan adalah: <p> dan <div>.
+
+    Elemen ini <p>mendefinisikan paragraf dalam dokumen HTML.
+
+    Elemen <div>mendefinisikan divisi atau bagian dalam dokumen HTML.
