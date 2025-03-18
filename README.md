@@ -245,6 +245,226 @@
 
   Menggunakan kode **!-- <p>This is another paragraph </p> --** untuk menyembunyikan teks untuk sementara.
 
-  <mark>Di awal dan di akhir address ada tanda <......></mark
+  <mark>Di awal dan di akhir address ada tanda <......></mark>
 
-- HTML 
+- HTML Color
+
+  - Menggunakan kode di bawah ini untuk menentukan warna background :
+
+    **h1 style="background-color:Tomato;">Tomato</h1**
+    
+    **h1 style="background-color:Orange;">Orange</h1**
+    
+    **h1 style="background-color:DodgerBlue;">DodgerBlue</h1**
+    
+    **h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1**
+    
+    **h1 style="background-color:Gray;">Gray</h1**
+    
+    **h1 style="background-color:SlateBlue;">SlateBlue</h1**
+    
+    **h1 style="background-color:Violet;">Violet</h1**
+    
+    **h1 style="background-color:LightGray;">LightGray</h1**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode dibawah ini untuk menentukan warna background :
+
+    **p style="background-color:Tomato;">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    </p**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode di bawah ini untuk mengatur warna teks/tulisan/kalimat jadi berwarna:
+ 
+    **h3 style="color:Tomato;">Hello World</h3**
+
+    **p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat 
+    volutpat.</p**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode dibawah ini untuk memberikan garis tipis kotak berwarna 
+
+    **h1 style="border: 2px solid Tomato;">Hello World</h1**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - Menggunakan kode ini untuk nengatur warna backgroundnya 
+
+    **h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1**
+    
+    **h1 style="background-color:#ff6347;">#ff6347</h1**
+    
+    **h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+- HTML CSS
+
+  - Apa itu CSS?
+
+    Cascading Style Sheets (CSS) digunakan untuk memformat tata letak halaman web.
+
+    Dengan CSS, Anda dapat mengontrol warna, font, ukuran teks, jarak antar elemen, bagaimana elemen diposisikan dan ditata, gambar latar belakang atau warna latar belakang 
+    apa yang akan digunakan, tampilan berbeda untuk perangkat dan ukuran layar berbeda.
+
+  - Menggunakan CSS
+
+    CSS dapat ditambahkan ke dokumen HTML dengan 3 cara:
+
+    - Inline - dengan menggunakan style atribut di dalam elemen HTML
+       
+    - Internal - dengan menggunakan <style>elemen di <head>bagian
+       
+    - Eksternal - dengan menggunakan <link>elemen untuk menautkan ke file CSS eksternal
+
+  - CCS sebaris
+ 
+    CSS sebaris digunakan untuk menerapkan gaya unik pada satu elemen HTML.
+
+    CSS sebaris menggunakan styleatribut elemen HTML.
+
+    **Contoh** menggunakan kode berikut ini :
+
+    **h1 style="color:blue;">A Blue Heading</h1**
+
+    **p style="color:red;">A red paragraph.</p**
+
+    <mark>Di awal dan di akhir ada tanda <......></mark>
+
+  - CSS Internal
+ 
+    CSS internal digunakan untuk menentukan gaya untuk satu halaman HTML.
+
+    CSS internal didefinisikan di <head>bagian halaman HTML, dalam suatu <style>elemen.
+
+    **Contoh** berikut menetapkan warna teks SEMUA **h1** elemen (pada halaman tersebut) menjadi biru, dan warna teks SEMUA elemen **p** menjadi merah. Selain itu, halaman 
+    akan ditampilkan dengan warna latar belakang "powderblue"
+ 
+    **CONTOH**
+ 
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+    </style>
+    </head>
+    <body>
+
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+
+  - External CSS
+
+    External digunakan untuk menentukan gaya untuk banyak halaman HTML.
+
+    **CONTOH**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+
+  - Warna, Font, dan Ukuran CSS
+ 
+    - **color** menentukan warna teks yang akan digunakan.
+
+    - **font-family** mendefinisikan font yang akan digunakan.
+
+    - **font-size** menentukan ukuran teks yang akan digunakan.
+
+    **CONTOH**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+
+    }
+    p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+
+  - Batas CSS
+
+    - **border** mendefinisikan batas di sekitar elemen HTML.
+ 
+    **CONTOH**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    p {
+    border: 2px solid powderblue;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h1>This is a heading</h1>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+
+  - Bantalan CSS
+
+    - **padding** mendefinisikan bantalan (spasi) antara teks dan batas.
+
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
