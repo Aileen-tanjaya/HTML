@@ -447,24 +447,55 @@
   - Bantalan CSS
 
     - **padding** mendefinisikan bantalan (spasi) antara teks dan batas.
+ 
+    **CONTOH**
 
     <!DOCTYPE html>
-<html>
-<head>
-<style>
-p {
-  border: 2px solid powderblue;
-  padding: 30px;
-}
-</style>
-</head>
-<body>
+    <html>
+    <head>
+    <style>
+    p {
+    border: 2px solid powderblue;
+    padding: 30px;
+    }
+    </style>
+    </head>
+    <body>
 
-<h1>This is a heading</h1>
+    <h1>This is a heading</h1>
 
-<p>This is a paragraph.</p>
-<p>This is a paragraph.</p>
-<p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
 
-</body>
-</html>
+    </body>
+    </html>
+
+  - Batas CSS
+
+    - **margin**mendefinisikan margin (spasi) di luar batas.
+
+    **CONTOH**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    p {
+    border: 2px solid powderblue;
+    margin: 50px;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h1>This is a heading</h1>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+
+    
