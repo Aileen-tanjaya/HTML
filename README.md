@@ -1152,4 +1152,44 @@
     <a href="tags/tag_base.asp">HTML base Tag</a>
     </body>
 
-  - 
+- HTML Layout
+
+  Elemen Tata Letak HTML
+
+  **header** = Menentukan header untuk dokumen atau bagian
+  **nav** = Menentukan sekumpulan tautan navigasi
+  **section** =  Menentukan bagian dalam dokumen
+  **article** =  Mendefinisikan konten yang independen dan mandiri
+  **aside** = Mendefinisikan konten selain konten (seperti sidebar)
+  **footer**= Menentukan footer untuk dokumen atau bagian
+  **details** =  Menentukan detail tambahan yang dapat dibuka dan ditutup oleh pengguna sesuai permintaan
+  **summary** = Menentukan judul untuk <details>elemen
+
+- HTML Responsive
+
+  - Mengatur Viewport
+
+    **Contoh**
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+- HTML Computer Code
+
+  **Contoh**
+
+  <code>
+  x = 5;
+  y = 6;
+  z = x + y;
+  </code>
+
+  - HTML **kbd** Untuk Input Keyboard
+ 
+    **Contoh**
+
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+  - HTML <samp> Untuk Output Program
+ 
+    
+    
