@@ -1189,7 +1189,170 @@
 
     <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
 
-  - HTML <samp> Untuk Output Program
+  - HTML **samp** Untuk Output Program
  
+    **Contoh**
+ 
+    <p>Message from my computer:</p>
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+  - HTML **code** Untuk Kode Komputer
+
+    **Contoh**
     
+    <code>
+    x = 5;
+    y = 6;
+    z = x + y;
+    </code>
+
+  - Pertahankan Jeda Baris
+ 
+    **Contoh**
+
+    <pre>
+    <code>
+    x = 5;
+    y = 6;
+    z = x + y;
+    </code>
+    </pre>
+
+  - HTML **var** Untuk Variabel
+ 
+    **Contoh**
+ 
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+- HTMLSemantics
+
+  Apa itu Elemen Semantik?
+
+  Elemen semantik menggambarkan maknanya dengan jelas bagi peramban dan pengembang.
+
+  Contoh unsur non-semantik : **div** dan **span** Tidak memberi tahu apa pun tentang isinya.
+
+  Contoh unsur semantik : **img**, **table**, dan **article** Mendefinisikan isinya dengan jelas.
+
+- HTML Style Guide
+
+  - Gunakan Nama Elemen Huruf Kecil
+ 
+    **Contoh**
+
+    <body>
+    <p>This is a paragraph.</p>
+    </body>
+
+  - Tutup Semua Elemen HTML
+ 
+    **Contoh**
+
+    <section>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    </section>
+
+- HTML Enties
+
+  Karakter yang dicadangkan dalam HTML harus diganti dengan entitas:
+
+  < (kurang dari) = <
+  
+  > (lebih besar dari) = >
+
+- HTML Symbols
+
+  Entitas Simbol HTML:
+
+  **Contoh**
+
+  <p>I will display &euro;</p>
+  <p>I will display &#8364;</p>
+  <p>I will display &#x20AC;</p>
+
+- HTML Emojis
+
+  Emoji adalah karakter dari set karakter UTF-8: 😄 😍 💗
+
+- HTML Charsets
+
+  - Set Karakter ASCII
+
+    ASCII merupakan standar pengkodean karakter pertama untuk web. Standar ini mendefinisikan 128 karakter berbeda yang dapat digunakan di internet:
+
+    - Huruf bahasa Inggris (AZ)
+      
+    - Angka (0-9)
+      
+    - Karakter khusus seperti !$ + - ( ) @ < >.
+
+  - Set Karakter ANSI
+
+    ANSI (Windows-1252) adalah set karakter Windows asli:
+
+    - Identik dengan ASCII untuk 127 karakter pertama
+      
+    - Karakter khusus dari 128 hingga 159
+      
+    - Identik dengan UTF-8 dari 160 hingga 255
+   
+  - Set Karakter ISO-8859-1
+
+    ISO-8859-1 merupakan set karakter default untuk HTML 4. Set karakter ini mendukung 256 kode karakter yang berbeda. HTML 4 juga mendukung UTF-8
+
+    - Identik dengan ASCII untuk 127 karakter pertama
+      
+    - Tidak menggunakan karakter 128 sampai 159
+      
+    - Identik dengan ANSI dan UTF-8 dari 160 hingga 255
+   
+  - Set Karakter UTF-8
+
+    - identik dengan ASCII untuk nilai dari 0 hingga 127
+      
+    - Tidak menggunakan karakter 128 sampai 159
+      
+    - Identik dengan ANSI dan 8859-1 dari 160 hingga 255
+      
+    - Melanjutkan dari nilai 256 hingga 10.000 karakter
+
+- HTML URL Encoding
+
+  - URL ( Pencari Sumber Daya Seragam )
+ 
+    skema - mendefinisikan jenis layanan Internet (yang paling umum adalah http atau https )
     
+    awalan - mendefinisikan awalan domain (default untuk http adalah www )
+    
+    domain - mendefinisikan nama domain Internet (seperti w3schools.com)
+    
+    port - menentukan nomor port pada host (default untuk http adalah 80 )
+    
+    path - menentukan jalur di server (Jika dihilangkan: direktori root situs)
+    
+    nama file - menentukan nama dokumen atau sumber daya
+
+  - Skema URL Umum
+ 
+    http (HyperText Transfer Protocol) = Halaman web umum. Tidak dienkripsi
+    
+    https (Secure HyperText Transfer Protocol) = halaman web aman. dienkripsi
+    
+    ftp (File Transfer Protocol) = download atau upload file
+    
+    file =  file di komputer
+
+  - Pengkodean URL
+ 
+    Pengkodean URL mengubah karakter non-ASCII menjadi format yang dapat dikirimkan melalui Internet.
+
+    Pengkodean URL mengganti karakter non-ASCII dengan "%" diikuti oleh digit heksadesimal.
+
+    URL tidak boleh mengandung spasi. Pengodean URL biasanya mengganti spasi dengan tanda tambah (+), atau %20.
+
+- Perbedaan html dan xhtml
+
+  XHTML adalah versi HTML yang lebih ketat dan berbasis XML.
+
+  XHTML dikembangkan untuk membuat HTML lebih mudah dikembangkan dan fleksibel untuk digunakan dengan format data lain (seperti XML).
